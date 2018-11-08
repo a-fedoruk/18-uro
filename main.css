@@ -1,0 +1,94 @@
+body {
+    font-family: 'Bangers', cursive;
+    background: url("https://image.freepik.com/vetores-gratis/fundo-quadrinho-azul-com-linhas-e-meio-tom_1017-11432.jpg") no-repeat center center fixed;
+    /* background: url("https://anarchapulco.com/wp-content/uploads/2016/07/AdobeStock_162874705.jpeg") no-repeat center center fixed; */
+    /* background: url("https://wallpapertag.com/wallpaper/full/5/9/7/354610-large-comic-book-background-2048x2048-for-android-50.jpg") no-repeat center center fixed; */
+    /* background: url("https://steamuserimages-a.akamaihd.net/ugc/360654407332258096/D9AC34BC20B91112B04CCB29F1292E33339380F8/") no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 12px;
+}
+
+/* 
+.overlay {
+    background-color: rgb(255, 219, 15);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
+h2 {
+    padding: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    font-size: 2.4em;
+    /* color: white; */
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.bubble {
+    display: none;
+    opacity: 0;
+    width: 100%;
+}
+
+/* .flash {
+    display: none;
+    opacity: 0;
+} */
+
+.loader, .flash, .dead__one, .dead__two, .dead__three, .dead__four, .dead__five, .dead__boobs{
+    color: white;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.bubble img {
+    width: 100%;
+}
+
+.dead__one-img {
+    width: 80%;
+}
+
+.bubble .text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -28px;
+    right: 0;
+    color: black;
+    margin: 0;
+    font-size: 2.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 0.7em;
+    background-color: white;
+    color: black;
+    width: 300px;
+    font-family: 'Bangers', cursive;
+    border: none;
+    border-radius: 50px;
+}
