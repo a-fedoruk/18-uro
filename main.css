@@ -40,7 +40,7 @@ h2 {
     text-align: center;
 }
 
-.bubble {
+.nine {
     display: none;
     opacity: 0;
     width: 100%;
@@ -51,15 +51,25 @@ h2 {
     opacity: 0;
 } */
 
-.loader, .flash, .dead__one, .dead__two, .dead__three, .dead__four, .dead__five, .dead__boobs{
+.loader, .flash, .dead__one, .dead__two, .dead__three, .dead__four, .dead__five, .six, .seven, .eight, .nine {
     color: white;
     font-size: 3em;
     width: 100%;
     text-align: center;
     display: none;
+    letter-spacing: 6px;
 }
 
-.bubble img {
+.ten {
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    display: none; 
+    letter-spacing: 6px;
+}
+
+.nine img {
     width: 100%;
 }
 
@@ -67,7 +77,7 @@ h2 {
     width: 80%;
 }
 
-.bubble .text {
+.nine .text {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -91,4 +101,14 @@ h2 {
     font-family: 'Bangers', cursive;
     border: none;
     border-radius: 50px;
+}
+
+.przewodniki {
+    display: flex;
+    flex-direction: column;
+}
+
+
+a {
+    color: black;
 }
